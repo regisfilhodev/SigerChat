@@ -92,8 +92,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 Para suporte e dúvidas, por favor abra uma issue no repositório ou entre em contato através do email: [seu-email@exemplo.com]
 
-## 🔗 Links Úteis
-
+## 🔗 Links Úteis:
 - [Documentação WhatsApp Business API](https://developers.facebook.com/docs/whatsapp)
 - [React Documentation](https://reactjs.org/)
 - [TypeScript Documentation](https://www.typescriptlang.org/)
