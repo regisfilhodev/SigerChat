@@ -1,0 +1,4 @@
+export const WHATSAPP_API_VERSION = 'v17.0';
+export const WHATSAPP_PHONE_NUMBER_ID = '110353445534517';
+export const WHATSAPP_ACCESS_TOKEN = process.env.WHATSAPP_ACCESS_TOKEN;
+export const WHATSAPP_BASE_URL = `https://graph.facebook.com/${WHATSAPP_API_VERSION}/${WHATSAPP_PHONE_NUMBER_ID}`; 
