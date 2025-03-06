@@ -1,6 +1,6 @@
-﻿# SigerChat 💬
+# SigerChat 💬
 
-O SigerChat é uma aplicação de chat moderna que integra com a API do WhatsApp Business, permitindo o envio e recebimento de mensagens através de uma interface web amigável.
+O SigerChat é uma aplicação de chat moderna que integra com a API do WhatsApp Business, permitindo o envio e recebimento de mensagens através de uma interface web amigável. Esta aplicação é construída com foco em escalabilidade e manutenibilidade.
 
 ## 🚀 Funcionalidades
 
@@ -15,11 +15,11 @@ O SigerChat é uma aplicação de chat moderna que integra com a API do WhatsApp
 
 ## 🛠️ Tecnologias Utilizadas
 
-- React
-- TypeScript
-- WhatsApp Business API
-- Axios para requisições HTTP
-- Styled Components para estilização
+- **React**: Biblioteca para construção de interfaces de usuário.
+- **TypeScript**: Superset do JavaScript que adiciona tipagem estática.
+- **WhatsApp Business API**: API para integração com o WhatsApp.
+- **Axios**: Biblioteca para requisições HTTP.
+- **Styled Components**: Biblioteca para estilização de componentes.
 
 ## 📋 Pré-requisitos
 
@@ -61,10 +61,15 @@ yarn start
 
 ### Enviar Mensagem de Texto
 ```typescript
+import { WhatsAppService } from './services/WhatsAppService';
+
+const whatsAppService = new WhatsAppService();
+
 const response = await whatsAppService.sendTextMessage(
   "5511999999999",
   "Olá! Esta é uma mensagem de teste."
 );
+console.log(response);
 ```
 
 ### Enviar Template
@@ -74,7 +79,10 @@ const response = await whatsAppService.sendTemplateMessage(
   "hello_world",
   "pt_BR"
 );
+console.log(response);
 ```
+
+## 📂 Estrutura do Projeto
 
 ## 🤝 Contribuindo
 
